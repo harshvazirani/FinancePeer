@@ -1,0 +1,40 @@
+.heading {
+    padding: 8px;
+    font-size: 1rem;
+}
+
+.redheader {
+    background-color: #ff9999;
+    height: 24px;
+    text-align: center;
+}
+
+.movielist {
+    overflow: scroll;
+    max-height: 280;
+}
+
+.grid {
+    display: grid;
+    list-style-type: none;
+    max-height: 250;
+    /*grid-gap: 5px;*/
+    grid-auto-columns: 17%;
+    grid-auto-flow: column;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.left-child {
+    margin: 16px;
+    width: 76%;
+    justify-content: flex-start;
+}
+
+.right-child {
+    margin: 16px;
+    width: 24%;
+    justify-content: flex-end;
+}
